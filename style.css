@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900;&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body {
+    background: #081b29;
+    color: #ededed;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 50;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: 100;
+}
+.logo {
+    font: 1em sans-serif;
+    font-size: 38px;
+    color: rgb(206, 211, 208);
+    font-family: 'Times New Roman', Times, serif;
+    font: bolder;
+    @media screen {
+        max-width: fit-content;
+        text-underline-offset: fade;
+        
+    }
+}
+.navbar a {
+    font-size: 18px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+.navbar a:hover {
+    color: #00abf0;
+}
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: #ededed;
+    margin-top: 10%;
+    @media screen {
+        max-width: fit-content;
+        
+    }
+}
+.home-info h1 {
+    margin-top: 9.5%;
+    color: #00ff59;
+    margin-left: 4%;
+    font-size: 30px;
+
+}
+.home-info h2 {
+    font-size: medium;
+    margin-right: 31%;
+    font-style: normal;
+    margin-left: 0.55cm;
+    font-stretch: expanded;
+    font-family: Cambria, Cochin, 'Times New Roman' ;
+    margin-top: 5%;
+}
+.home-img .img-box {
+    width: 30vw;
+    height: 28vw;
+    background: #00ff59;
+    border-radius: 50%;
+    float: right;
+    margin-top: 5ch;
+    padding: 5px;
+    margin: top -10px;cm;
+    margin-top: -5%;
+    margin-right: 5%;
+    margin-bottom: 80%;
+
+}
+.home-img .img-box .img-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.home-img .img-box .img-item img {
+    position: absolute;
+    display: block;
+    width: 85%;
+    object-fit: cover;
+    align-items: center;
+}
+.home.png {
+    margin-top: 4cm;
+}
+.site {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+}
+.footer {
+    margin-left: 100%;
+    width: 100%;
+}
+.About {
+    margin-left: 35%;
+    margin-top: 10%;
+
+}
+h3 {
+    color: #00ff59;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    
+}
+h4 {
+    color: #00ff59;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    header, footer {
+      padding: 20px 0;
+    }
+  
+    ul li {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
